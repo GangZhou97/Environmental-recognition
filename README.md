@@ -1,11 +1,7 @@
-﻿# Environmental features recognition for lower limb prostheses toward predictive walking
+﻿# Environmental features recognition
+ <img src='./Environmental-feature-recog.jpg' width=50%>
 
-<img src='./Environmental-feature-recog.jpg' width=50%>
-
-We present a robust environmental features recognition system (EFRS) for lower limb prosthesis,
-which can assist the control of prosthesis by predicting locomotion modes of amputees and estimating environmental features in the following steps. A depth sensor and an inertial measurement unit (IMU) are combined to stabilize
-the point cloud of environments. Subsequently, the 2D point cloud is extracted from origin 3D point cloud and is classified through a neural network. Environmental features, including slope of road, width,
-and height of stair, were also estimated via the 2D point cloud. Finally, EFRS is evaluated through classifying and recognizing five kinds of common environments in simulation, indoor experiments and outdoor
+We present a robust environmental features recognition system (EFRS),which can assist the control of exoskeleton by estimating environmental features in the following steps. A depth sensor and an inertial measurement unit (IMU) are combined to stabilizethe point cloud of environments. Subsequently, the 2D point cloud is extracted from origin 3D point cloud and is classified through a neural network. Environmental features, including slope of road, width,and height of stair, were also estimated via the 2D point cloud. Finally, EFRS is evaluated through classifying and recognizing five kinds of common environments in simulation, indoor experiments and outdoor
 experiments by six healthy subjects and three transfemoral amputees, and databases of five healthy subjects and
 three amputees are used to validate without training. The classification accuracy of five kinds of common environments reach up to 99.3% and 98.5% for the amputees in the indoor and outdoor experiments, respectively. The locomotion modes are predicted at least 0.6 s before the switch of actual locomotion modes. Most estimation errors
 of indoor and outdoor environments features are lower than 5% and 10%, respectively. The overall process of EFRS takes less than 0.023 s. The promising results demonstrate the robustness and the potential application of the presented EFRS to help control of lower limb prostheses. 
