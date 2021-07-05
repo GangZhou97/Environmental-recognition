@@ -13,27 +13,3 @@ python classification.py
 
 I just uploaded the environmental classification algorithm because I think it should be the most useful part. If you want me to upload the image preprocessing and environmental parameter estimation part, please leave a message in the issue or send an email to me directly. 
 
-## Contact
-
-For more related works and codes, please view my homepage: https://sites.google.com/view/kuangenzhang
-
-Further information please contact Kuangen Zhang (kuangen.zhang@alumni.ubc.ca).
-
-## Citation
-If you find our work useful in your research, please consider citing:
-```bash
-@article{zhang_environmental_2019,
-	title = {Environmental features recognition for lower limb prostheses toward predictive walking},
-	volume = {27},
-	issn = {1534-4320},
-	number = {3},
-	journal = {IEEE Transactions on Neural Systems and Rehabilitation Engineering},
-	author = {Zhang, K. and Xiong, C. and Zhang, W. and Liu, H. and Lai, D. and Rong, Y. and Fu, C.},
-	month = mar,
-	year = {2019}
-}
-```
-
-
-## License
-MIT License
