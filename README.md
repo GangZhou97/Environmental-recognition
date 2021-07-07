@@ -1,5 +1,4 @@
 ﻿# Environmental features recognition
- <img src='./Environmental-feature-recog.jpg' width=50%>
 
 We present a robust environmental features recognition system (EFRS),which can assist the control of exoskeleton by estimating environmental features in the following steps. A depth sensor and an inertial measurement unit (IMU) are combined to stabilizethe point cloud of environments. Subsequently, the 2D point cloud is extracted from origin 3D point cloud and is classified through a neural network. Environmental features, including slope of road, width,and height of stair, were also estimated via the 2D point cloud. 
 
